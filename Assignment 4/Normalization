@@ -1,0 +1,16 @@
+Database Normalization
+----------------------
+
+First normal form (1NF)
+Each table has a primary key: minimal set of attributes which can uniquely identify a record.
+The values in each column of a table are atomic (No multi-value attributes allowed).
+There are no repeating groups: two columns do not store similar information in the same table.
+
+Second normal form (2NF)
+All requirements for 1st NF must be met.
+No partial dependencies.
+No calculated data.
+
+Third normal form (3NF)
+All requirements for 2nd NF must be met.
+Eliminate fields that do not directly depend on the primary key; that is no transitive dependencies.
